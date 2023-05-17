@@ -5,7 +5,7 @@ import MemoComp from './components/MemoComp';
 function App() {
   return (
     <div className="App">
-      <MemoComp/>
+      <MemoComp />
     </div>
   );
 }

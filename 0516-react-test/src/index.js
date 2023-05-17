@@ -4,7 +4,9 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import store from './store'
+// 리듀서의 값을 전체에서 사용할수 있게
+// app을 감싸는 provider와 store 가져옴
+import store from './store';
 import { Provider } from 'react-redux'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
