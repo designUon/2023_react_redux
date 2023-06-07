@@ -2,6 +2,9 @@ import React, {useState} from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { addMemoRedux, addMemoToolkit, deleteMemoRedux, deleteMemoSplice } from '../slices/memoSlice';
 
+// 파이어베이스를 사용하지않고,
+// 배열의 값을 데이터베이스처럼 사용해서 쓰는 방법
+// 추가, 수정, 삭제와 같은 내용을 JS(배열메소드)를 이용
 export default function MemoComp() {
 
     const memo = useSelector((state) => (state.memo))
